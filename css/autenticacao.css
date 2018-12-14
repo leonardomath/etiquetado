@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Rosario');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0 30px;
+}
+
+input {
+    display: block;
+    width: 100%;
+    max-width: 376px;
+    height: 51px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+    margin-bottom: 14px;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #000;
+    text-align: center;
+    position: relative;
+    top: -50px;
+}
+
+button {
+    width: 100%;
+    max-width: 376px;
+    height: 51px;
+    background: #176DD1;
+    border: none;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #176DD1;
+}
+
+.login-painel {
+    width: 100%;
+    max-width: 740px;
+    height: 475px;
+    background: #fff;
+    box-shadow: -20px 20px 30px #0A4A94;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.loginInt {
+    padding: 40px;
+    position: absolute;
+    width: 100%;
+    max-width: 416px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+nav span {
+    position: absolute;
+    width: 142px;
+    height: 30px;
+    left: 85px;
+    top: 63px;
+    font-size: 28px;
+    color: #fff;
+    font-family: 'Rosario', sans-serif;
+   
+}
+
+@media screen and (max-height: 768px) {
+    
+   nav span {
+       top: 30px;
+   }
+}
+
+@media screen and (max-width: 768px) {
+    nav span {
+        left:50%;
+        transform: translateX(-50%);
+    }
+}

@@ -1,0 +1,512 @@
+
+  @font-face {
+  
+    src: url(assets/fonts/impact.ttf);
+}
+
+  * {
+    padding: 0;
+    margin: 0;
+    font-family: "impact","Arial black";
+    font-weight: bold;
+  }
+
+.etiqueta1 {
+  color: #000;
+  background: transparent;
+}
+
+.etiqueta6 {
+  color: #000;
+  background: transparent;
+  float: left;
+}
+
+.etiqueta7 {
+  color: #000;
+  background: transparent;
+  float: left;
+}
+
+.etiqueta8 {
+  color: #000;
+  background: transparent;
+  float: left;
+}
+
+.etiqueta6 h1 {
+  font-size: 18px;
+}
+
+.etiqueta2 {
+  color: #000;
+  background: transparent;
+  margin-right: 10px;
+  background: #000;
+}
+
+.etiqueta3 {
+  color: #000;
+  background: transparent;
+  margin-right: 10px;
+}
+
+.etiqueta2 .preco1 {
+    position: absolute;
+    left: 110px;
+    width: 300px;
+    display: block;
+    color: #fff;
+    z-index: 3;
+    text-transform: uppercase;
+    color: blue;
+    font-weight: bold;
+}
+
+.etiqueta2 .preco2 {
+    position: absolute;
+    right: -100px;
+    width: 300px;
+    display: block;
+    color: #fff;
+    z-index: 3;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+}
+
+.etiqueta3 .preco1 {
+    position: absolute;
+    left: 80px;
+    width: 300px;
+    display: block;
+    color: #fff;
+    z-index: 3;
+    text-transform: uppercase;
+    color: blue;
+    font-weight: bold;
+}
+
+.etiqueta3 .preco2 {
+    position: absolute;
+    right: -130px;
+    width: 300px;
+    display: block;
+    color: #fff;
+    z-index: 3;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+}
+
+.etiqueta6 .preco1 {
+    position: absolute;
+    left: 45px;
+    width: 20px;
+    display: block;
+    color: #fff;
+    z-index: 3;
+    text-transform: uppercase;
+    color: blue;
+    font-weight: bold;
+}
+
+.etiqueta6 .preco2 {
+    position: absolute;
+    right: 85px;
+    width: 20px;
+    display: block;
+    color: #fff;
+    z-index: 3;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+}
+
+.etiqueta7 .preco1 {
+    position: absolute;
+    left: 50px;
+    width: 20px;
+    display: block;
+    color: #fff;
+    z-index: 3;
+    text-transform: uppercase;
+    color: blue;
+    font-weight: bold;
+}
+
+.etiqueta7 .preco2 {
+    position: absolute;
+    left: 210px;
+    width: 20px;
+    display: block;
+    color: #fff;
+    z-index: 3;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+.etiqueta9 .preco1 {
+    position: absolute;
+    left: 130px;
+    width: 20px;
+    display: block;
+    color: #fff;
+    z-index: 3;
+    text-transform: uppercase;
+    color: blue;
+    font-weight: bold;
+}
+
+.etiqueta9 .preco2 {
+    position: absolute;
+    right: 415px;
+    width: 20px;
+    display: block;
+    color: #fff;
+    z-index: 3;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+}
+
+.etiqueta8 .preco1 {
+    position: absolute;
+    left: 170px;
+    width: 20px;
+    display: block;
+    color: #fff;
+    z-index: 3;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.etiqueta100 .preco2 {
+    position: absolute;
+    left: 340px;
+    width: 20px;
+    display: block;
+    color: #fff;
+    z-index: 3;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+}
+
+.etiqueta100 .preco1 {
+    position: absolute;
+    left: 80px;
+    width: 20px;
+    display: block;
+    color: blue;
+    z-index: 3;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+  @media print {
+    .print img {
+      display: none;
+    }
+  }
+
+  @page { 
+     margin: 0mm; 
+     size: portrait;
+
+  }
+
+  .print {
+    left: 50%;
+    transform: translate(-50%);
+    position: fixed;
+    bottom: 10px;
+    cursor: pointer;
+  }
+
+  img {
+    margin-bottom: 5px;
+  }
+
+  .flex {
+
+  }
+
+  .print img {
+    width: 45px;
+    height: 45px;
+    margin-left: 15px
+  }
+
+  .etiqueta1 h1 {
+    position: absolute;
+    text-align: center;
+    font-size: 30px;
+    top: 45px;
+    left: 50%;
+    width: 350px;
+    transform: translateX(-50%);
+    display: block;
+    color: #fff;
+    z-index: 3;
+    text-transform: uppercase;
+  }
+
+
+   .etiqueta2 h1 {
+    position: absolute;
+    text-align: center;
+    font-size: 30px;
+    top: 45px;
+    left: 50%;
+    width: 350px;
+    transform: translateX(-50%);
+    display: block;
+    color: #fff;
+    z-index: 3;
+    text-transform: uppercase;
+  }
+
+   .etiqueta3 h1 {
+    position: absolute;
+    text-align: center;
+    font-size: 30px;
+    top: 45px;
+    left: 50%;
+    width: 350px;
+    transform: translateX(-50%);
+    display: block;
+    color: #fff;
+    z-index: 3;
+    text-transform: uppercase;
+  }
+
+  .etiqueta1 h2 {
+    position: absolute;
+    text-align: center;
+    font-size: 20px;
+    top: 80px;
+    left: 50%;
+    width: 800px;
+    transform: translateX(-50%);
+    display: block;
+    color: #fff;
+    z-index: 3;
+    text-transform: uppercase;
+  }
+
+
+  .etiqueta3 h2 {
+    position: absolute;
+    text-align: center;
+    font-size: 20px;
+    top: 80px;
+    left: 50%;
+    width: 800px;
+    transform: translateX(-50%);
+    display: block;
+    color: #fff;
+    z-index: 3;
+    text-transform: uppercase;
+  }
+
+  .etiqueta6 h2 {
+    position: absolute;
+    text-align: center;
+    font-size: 8px;
+    top: 25px;
+    left: 50%;
+    width: 800px;
+    transform: translateX(-50%);
+    display: block;
+    color: #fff;
+    z-index: 3;
+    text-transform: uppercase;
+  }
+
+.etiqueta7 h2 {
+    position: absolute;
+    text-align: center;
+    font-size: 20px;
+    top: 60px;
+    left: 50%;
+    width: 800px;
+    transform: translateX(-50%);
+    display: block;
+    color: #fff;
+    z-index: 3;
+    text-transform: uppercase;
+  }
+
+  .etiqueta2 h2 {
+    position: absolute;
+    text-align: center;
+    font-size: 20px;
+    top: 80px;
+    left: 50%;
+    width: 800px;
+    transform: translateX(-50%);
+    display: block;
+    color: #fff;
+    z-index: 3;
+    text-transform: uppercase;
+  }
+
+  .etiqueta100 .preco3 {
+    position: absolute;
+    right: 10px;
+    width: 300px;
+    display: block;
+    color: #fff;
+    z-index: 3;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+  }
+
+
+   .etiqueta6 h1 {
+    position: absolute;
+    text-align: center;
+    font-size: 14px;
+    top: 10px;
+    left: 50%;
+    width: 350px;
+    transform: translateX(-50%);
+    display: block;
+    color: #fff;
+    z-index: 3;
+    text-transform: uppercase;
+  }
+
+  .etiqueta7 h1 {
+    position: absolute;
+    text-align: center;
+    font-size: 32px;
+    top: 25px;
+    left: 50%;
+    width: 700px;
+    transform: translateX(-50%);
+    display: block;
+    color: #fff;
+    z-index: 3;
+    text-transform: uppercase;
+  }
+
+   .etiqueta8 h1 {
+    position: absolute;
+    text-align: center;
+    font-size: 26px;
+    top: 65px;
+    left: 50%;
+    width: 800px;
+    transform: translateX(-50%);
+    display: block;
+    color: #fff;
+    z-index: 3;
+    text-transform: uppercase;
+  }
+
+   .etiqueta8 h2 {
+    position: absolute;
+    text-align: center;
+    font-size: 22px;
+    top: 90px;
+    left: 50%;
+    width: 800px;
+    transform: translateX(-50%);
+    display: block;
+    color: #fff;
+    z-index: 3;
+    text-transform: uppercase;
+  }
+
+    .etiqueta9 h3 {
+    position: absolute;
+    text-align: center;
+    font-size: 45px;
+    top: 290px;
+    left: 360px;
+    width: 800px;
+    transform: translateX(-50%);
+    display: block;
+    color: #fff;
+    z-index: 3;
+    text-transform: uppercase;
+  }
+
+  .etiqueta9 h1 {
+    position: absolute;
+    text-align: center;
+    font-size: 60px;
+    top: 80px;
+    left: 50%;
+    width: 800px;
+    transform: translateX(-50%);
+    display: block;
+    color: #fff;
+    z-index: 3;
+    text-transform: uppercase;
+  }
+
+ .etiqueta9 h2 {
+    position: absolute;
+    text-align: center;
+    font-size: 40px;
+    top: 150px;
+    left: 50%;
+    width: 800px;
+    transform: translateX(-50%);
+    display: block;
+    color: #fff;
+    z-index: 3;
+    text-transform: uppercase;
+  }
+
+
+  .etiqueta100 h1 {
+    position: absolute;
+    text-align: center;
+    font-size: 60px;
+    top: 120px;
+    left: 50%;
+    width: 800px;
+    transform: translateX(-50%);
+    display: block;
+    color: #fff;
+    z-index: 3;
+    text-transform: uppercase;
+  }
+
+ .etiqueta100 h2 {
+    position: absolute;
+    text-align: center;
+    font-size: 40px;
+    top: 190px;
+    left: 50%;
+    width: 800px;
+    transform: translateX(-50%);
+    display: block;
+    color: #fff;
+    z-index: 3;
+    text-transform: uppercase;
+  }
+
+  .etiqueta1 .preco1 {
+    color: #fff;
+    bottom: 50px;
+    left: 52%;
+    transform: translateX(-50%);
+    position: absolute;
+  }
+
+  .etiqueta1 .preco2 {
+    /*display: block;
+    color: #fff;
+    bottom: 30%;
+    right: 20%;
+    font-size: 40px;  
+    position: absolute;*/
+  }
